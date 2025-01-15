@@ -27,7 +27,7 @@ jobs:
           cat README.md
       - name: Push to repository
         run: |
-          git config --global user.name "Zore Anuj"
+          git config --global user.name "ZoreAnuj"
           git config --global user.email "zoreanuj@gmail.com"
           now=$(date)
           git add -A
