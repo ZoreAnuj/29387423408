@@ -27,8 +27,8 @@ jobs:
           cat README.md
       - name: Push to repository
         run: |
-          git config --global user.name "Lei Mao"
-          git config --global user.email "leimao@users.noreply.github.com"
+          git config --global user.name "Zore Anuj"
+          git config --global user.email "zoreanuj@gmail.com"
           now=$(date)
           git add -A
           git commit -m "Auto Push on $now"
